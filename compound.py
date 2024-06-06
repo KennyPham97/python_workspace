@@ -20,3 +20,6 @@ def calculate(sb, mc, ir, mv):
     return int(total_acc_bal)
 
 main()
+
+
+#this is an compounding interest calculator that takes in a user's starting balance, monthly contributions, interest rate and time invested to calculate their total balance after a period of time.
