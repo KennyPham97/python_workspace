@@ -1,5 +1,11 @@
 def main():
-    starting_bal, monthly_cont, interest_rate, months_inv = get_info()
+    while True:
+        try:
+            starting_bal, monthly_cont, interest_rate, months_inv = get_info()
+            break
+        except ValueError:
+            print("Please enter valid numbers, try again.")
+            pass
     total_acc_bal = calculate(starting_bal, monthly_cont, interest_rate, months_inv)
     print("\nTotal account balance:",f"${total_acc_bal:,}") #This \n forms a new line before total_account_balance is printed, then total_acc_balance is formatted as an f string, with a comma for the thousand numbers.
 
