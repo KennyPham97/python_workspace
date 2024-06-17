@@ -23,8 +23,4 @@ def convert_to_percentage(x,y):
     else:
         print(round(percentage),"%",sep="")
     
-    
-    
-    
-
 main()
