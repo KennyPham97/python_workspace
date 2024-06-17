@@ -13,7 +13,7 @@ print(coin)
 number = random.randint(1, 10)
 print(number)
 
-cards = ["jack", "queen", "king"]
+cards = ["jack", "queen", "king", "ace", "joker"]
 random.shuffle(cards)
 for card in cards:
     print(card)
