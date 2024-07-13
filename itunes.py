@@ -13,3 +13,4 @@ for result in o["results"]:
     
     
 #this is a program that requests data from the itunes api and displays it in the terminal.
+#sys.exit() exits whole progams, break just exits out of loops.
