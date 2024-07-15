@@ -19,7 +19,8 @@ def get_calories(fruit):
         "sweet cherries": 100,
         "kiwifruit": 90,
         "pear": 100,
-        "watermelon": 80
+        "watermelon": 80,
+        "durian": 120,
         }
 
     if fruit in fruits:
