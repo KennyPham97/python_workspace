@@ -2,8 +2,7 @@ import sys
 
 def main():
     if len(sys.argv) != 3:
-        print("Console input must have 2 arguments, an under and over value.")
-        sys.exit()
+        sys.exit("Console input must have 2 arguments, an under and over value.")
     
     while True:
         try:
