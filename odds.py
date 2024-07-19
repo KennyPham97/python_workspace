@@ -10,8 +10,7 @@ def main():
             over = abs(int(sys.argv[2]))
             break
         except ValueError:
-            print("Invalid input type.")
-            sys.exit()
+            sys.exit("Invalid input type.")
     calculate_odds(under, over)
     
     
