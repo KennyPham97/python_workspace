@@ -2,7 +2,7 @@ import sys
 
 def main():
     if len(sys.argv) != 3:
-        sys.exit("Console input must have 2 more arguments, an under and over value.")
+        sys.exit("Console input must have 3 arguments, a file name, negative odds, and positive odds.")
         
     while True:
         try:
