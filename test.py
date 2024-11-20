@@ -19,7 +19,8 @@ team = [
     "vlad",
     "andrew",
     "mark",
-    "celida",
+    "celida"
+    "minh",
 ]
 def main():
     while True:
