@@ -29,3 +29,5 @@ main()
 
 
 #this is an compounding interest calculator that takes in a user's starting balance, monthly contributions, interest rate and time invested to calculate their total balance after a period of time.
+#there may be a feature added to let the user choose between monthly contributions and annual contributions. 
+#this does not take in account inflation, or other factors such as dividends reinvested. 
